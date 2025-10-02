@@ -41,3 +41,25 @@ This repository implements a **full end-to-end pipeline** from raw image preproc
 3. **Class-to-Color Mapping (C++ / OpenCV & Python)**  
    - Class ID maps are converted into **final segmented images** using the color correspondence mapping (`generate-color-corresponce.ipynb` + C++ pipelines).  
    - Produces **clinically interpretable, color-coded segmented images** for analysis.
+
+## U-Net Architecture
+
+<img width="1555" height="1036" alt="image" src="https://github.com/user-attachments/assets/a3ef11f6-66e0-44c3-a983-1e3137d308cb" />
+
+## Class - color mapping
+
+<img width="252" height="315" alt="image" src="https://github.com/user-attachments/assets/48d9bdd1-21cd-4288-8443-b561043f9c4e" />
+
+## Example of infered images
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/030549ab-76ea-4061-9cd0-d03ac2bff5c2" width="350" />
+  <img src="https://github.com/user-attachments/assets/4b63c532-c17f-4785-aa2e-e5d94363b620" width="350" />
+</p>
+
+<p float="left">
+   <img src="https://github.com/user-attachments/assets/8d06e00b-47a1-4b51-921a-2906d4190d20" width="350" />
+   <img src="https://github.com/user-attachments/assets/152f1d0e-7135-4c86-919f-9aa84c0567d8" width="350" />
+</p>
+
+
